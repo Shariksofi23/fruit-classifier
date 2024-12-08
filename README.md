@@ -15,9 +15,11 @@ Installation
 Prerequisites
 Ensure the following Python libraries are installed:
 
+
 pip install pillow pyttsx3
 Dataset Preparation
 Organize your dataset folder as follows:
+
 
 dataset/
 ├── apple/
@@ -36,26 +38,40 @@ dataset/
     ├── image1.jpg
     ├── image2.jpg
     └── ...
+
 Cloning the Repository
 Clone the repository and navigate to the project directory:
 
+
 git clone https://github.com/Shariksofi23/fruit-classifier.git
 cd fruit-classifier
+
 Usage
+
 Ensure the dataset folder is in the project directory.
+
 Run the application:
-python app.py
+
+python display_conert_labelto_speech.py
+
 Expected Behavior
+
 A random fruit image is displayed in a GUI.
+
 The fruit name appears below the image.
+
 The name of the fruit is announced via text-to-speech.
+
 Clicking the "Show Random Fruit" button displays a new random fruit image.
 Project Structure
+
 fruit-classifier/
-├── app.py              # Main application script
-├── dataset/            # Folder containing fruit images
-└── README.md           # Project documentation
+├── app.py                # Main application script
+├── dataset/              # Folder containing fruit images
+└── README.md             # Project documentation
+
 Future Improvements
+
 Add machine learning to classify uploaded fruit images.
 Enhance the GUI with additional information about the fruits.
 Add more fruit categories and images to the dataset.
